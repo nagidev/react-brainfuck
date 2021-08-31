@@ -19,9 +19,9 @@ const Code = (props) => {
                 placeholder="Enter code here..."
                 value={props.codeData.code}
                 onChange={onChange} />
-            <div className="btn-group">
-                <button className="btn btn-light" onClick={props.run}>Run</button>
-                <button className="btn btn-light" onClick={props.reset} disabled={false}>Reset</button>
+            <div className="btn-group mx-auto">
+                <button className="btn btn-danger" onClick={props.run}>Run</button>
+                <button className="btn btn-danger" onClick={props.reset} disabled={false}>Reset</button>
             </div>
         </div>
     );
